@@ -1,0 +1,11 @@
+### test1
+POST http://localhost:8080/counsels
+Content-Type: application/json
+
+< ../data/consel.json
+
+### test2 zipcode 6자리 -> 500 error 관련 에러 변경점 고민
+POST http://localhost:8080/counsels
+Content-Type: application/json
+
+< ../data/consel2.json
